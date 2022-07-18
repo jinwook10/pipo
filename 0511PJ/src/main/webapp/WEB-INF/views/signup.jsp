@@ -369,7 +369,8 @@
 								<li><a href="">Affiliates</a></li>
 
 								<li><a href="">Contact</a></li>
-
+                                <li><a href="">Contact</a></li> 
+                                <li><a href="">Contact</a></li>
 							</ul>
 
 						</div>
