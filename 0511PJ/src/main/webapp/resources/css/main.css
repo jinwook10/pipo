@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+	width: 1000px;
+	margin: 10px 10px 10px 10px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	background-color: bisque;
+}
+
+#header {
+	width: 1000px;
+	height: 100px;
+	margin: 0px 0px 10px 0px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+	/*margin이 안 먹힐 때 추가하는 코드! 저장된 내용의 크기만큼 선택, 여백 및 크기 조정*/
+	/*  padding : 0px 0px 0px 100px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	background-color: white;
+}
+
+#title {
+	margin: 5px 0px 5px 300px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+}
+
+#nav {
+	width: 1000px;
+	height: 50px;
+	margin: 0px 0px 10px 0px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	background-color: white;
+}
+
+#menu {
+	margin: 15px 0px 15px 30px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+}
+
+#content {
+	width: 700px;
+	height: 300px;
+	margin: 0px 10px 0px 0px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	float: left;
+	background-color: white;
+}
+
+#loginbox {
+	width: 285px;
+	height: 190px;
+	margin: 0px 0px 10px 5px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	float: left;
+	background-color: white;
+}
+
+#loginbox2 {
+	width: 265px;
+	height: 170px;
+	margin: 10px 10px 10px 10px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	float: left;
+	background-color: white;
+	background-color: red;
+}
+
+#ad {
+	width: 285px;
+	height: 100px;
+	margin: 0px 0px 0px 5px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	float: left;
+	background-color: white;
+}
+
+#bbsbox {
+	width: 1000px;
+	height: 100px;
+	margin: 10px 0px 0px 0px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+	background-color: white;
+}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	margin: 10px 0px 0px 0px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+	background-color: white;
+}
+
+#info {
+	text-align: center;
+	margin: 15px 0px 15px 50px; /*위쪽, 오른쪽, 아래쪽, 왼쪽*/
+	display: inline-block;
+}
